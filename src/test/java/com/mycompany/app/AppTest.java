@@ -44,8 +44,9 @@ public class AppTest
     public void testAppCalc()
     {
         try {
-            int res=App.calc();
-            assertEquals(50, res);
+            int res=App.calc(5,10);
+            int expected=5*10;
+            assertEquals(expected, res);
         } catch (AssertionError e1) {
             fail("Not 50");
         }

@@ -12,10 +12,13 @@ public class App
 
     public static void main(String[] args) {
         System.out.println(new App().getMessage());
-        int result = 5 * 10;
-        System.out.println(result);
     }
-
+    
+    public int calc() {
+        int result = 5 * 10;
+        return  result;
+    }
+    
     private final String getMessage() {
         return message;
     }

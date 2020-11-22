@@ -69,7 +69,7 @@
 						<id>post-unit-test</id>
 						<phase>test</phase>
 						<goals>
-							<goal>coverage-report</goal>
+							<goal>report</goal>
 						</goals>
 						
 					</execution>

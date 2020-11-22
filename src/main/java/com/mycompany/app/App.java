@@ -14,8 +14,8 @@ public class App
         System.out.println(new App().getMessage());
     }
     
-    public static int calc() {
-        int result = 5 * 10;
+    public static int calc(int a, int b) {
+        int result = a * b;
         return  result;
     }
     

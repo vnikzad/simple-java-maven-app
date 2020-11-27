@@ -28,7 +28,7 @@
               <addClasspath>true</addClasspath>
               <classpathPrefix>lib/</classpathPrefix>
               <mainClass>com.mycompany.app.App</mainClass>
-              <webXml>src\main\webapp\WEB-INF\web.xml</webXml>
+              <failOnMissingWebXml>false</failOnMissingWebXml>
             </manifest>
           </archive>
         </configuration>

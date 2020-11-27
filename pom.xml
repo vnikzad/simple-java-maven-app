@@ -23,7 +23,7 @@
         <artifactId>maven-jar-plugin</artifactId>
         <version>3.1.0</version>
         <configuration>
-          <webxml>home/labsuser/apache-tomcat-8.5.60/webapps/manager/WEB-INF/web.xml</webxml>
+          <failOnMissingWebXml>false</failOnMissingWebXml>  
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>

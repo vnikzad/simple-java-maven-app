@@ -23,12 +23,12 @@
         <artifactId>maven-jar-plugin</artifactId>
         <version>3.0.2</version>
         <configuration>
+          <failOnMissingWebXml>false</failOnMissingWebXml>
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
               <classpathPrefix>lib/</classpathPrefix>
               <mainClass>com.mycompany.app.App</mainClass>
-              <failOnMissingWebXml>false</failOnMissingWebXml>
             </manifest>
           </archive>
         </configuration>

@@ -21,7 +21,7 @@
         <!-- Build an executable JAR -->
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
-        <version>3.0.2</version>
+        <version>3.1.0</version>
         <configuration>
           <webxml>home/labsuser/apache-tomcat-8.5.60/webapps/manager/WEB-INF/web.xml</webxml>
           <archive>

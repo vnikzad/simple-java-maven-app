@@ -23,7 +23,7 @@
         <artifactId>maven-jar-plugin</artifactId>
         <version>3.0.2</version>
         <configuration>
-          <webXml>home\labsuser\apache-tomcat-8.5.60\webapps\manager\WEB-INF</webXml>
+          <webxml>home/labsuser/apache-tomcat-8.5.60/webapps/manager/WEB-INF</webXml>
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
